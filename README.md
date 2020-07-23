@@ -10,6 +10,12 @@
 
 #### Inference attack & defence
 
+- [Deep Models Under the GAN: Information Leakage from Collaborative Deep Learning](https://arxiv.org/pdf/1702.07464.pdf)
+
+
+- [Deep Leakage from Gradients](https://arxiv.org/pdf/1906.08935.pdf)
+
+
 ### Backdoor & Adversarial
 #### Attack
 - [Hidden Trigger Backdoor Attacks](https://arxiv.org/pdf/1905.11468.pdf)
@@ -27,6 +33,9 @@ Introduced DataGrad framework, which is framewrok that consider the layer-wise l
 
 - [Towards Robust Training of Neural Networks by Regularizing Adversarial Gradients](https://arxiv.org/pdf/1712.00673.pdf)
 Proposed a novel training method to defend the adversarial attack by designing a new regularizer function. The regularizer calculates the the difference between the maximum wrong logit output and the correct output, which can be considered as the fastest direction of pushing the the wrong logit to be larger than the correct logit output. The regularizer is added to the global loss function after derivating, and it need to be obtained by double-backpropagation. It is worth mentioning that the regularizer is calculated by logits that haven't passed throught the softmax layer or cross-entropy, which contains more direct information of the gradients. This improvement can make the edge of the model more smooth, so that it is hard for the adversarial attack to utilize the gradients in the similar magnitude to generate adversarial examples.
+
+- [One Neuron to Fool Them All](https://arxiv.org/pdf/2003.09372.pdf)
+
 
 
 ### Multi-Party Computation
