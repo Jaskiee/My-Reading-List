@@ -36,7 +36,13 @@ Proposed a novel training method to defend the adversarial attack by designing a
 - [Improving the Adversarial Robustness and Interpretability of Deep Neural Networks by Regularizing their Input Gradients](https://arxiv.org/pdf/1711.09404.pdf)
 Training with gradient regularization increases robutness to adversarial perturbations, it can be combined with adversarial training to achieve greater robustness. Gradient Regularization actually adds another item, the rate of change of the energy with respect to the input features, to the loss formula except the common cross-entorpy, which can be seen as the energy of the network. The gradient regularization also increases the interpretability of adversarial pertubations.
 
-#### Lip
+#### Lipchitz Constant
+
+- [Parseval Networks: Improving Robustness to Adversarial Examples](https://arxiv.org/pdf/1704.08847.pdf)
+
+- [L2-Nonexpansive Neural Networks](https://arxiv.org/pdf/1802.07896.pdf)
+
+- [Understanding Adversarial Robustness: The Trade-Off Between Minimum and Average Margin](https://arxiv.org/pdf/1907.11780.pdf)
 
 
 ### Backdoor
