@@ -67,7 +67,7 @@ This work proposed the notion of sensitivity of individual neurons, which is to 
 
 ### SGX and TrustZone
 
-- [SoK: General Purpose Compilers for Secure Multi-Party Computation](https://marsella.github.io/static/mpcsok.pdf
+- [SoK: General Purpose Compilers for Secure Multi-Party Computation](https://marsella.github.io/static/mpcsok.pdf)
 
 - [Slalom: Fast, Verifiable and Private Execution of Neural Networks in Trusted Hardware](https://arxiv.org/pdf/1806.03287.pdf)
 
