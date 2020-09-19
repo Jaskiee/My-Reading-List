@@ -67,7 +67,9 @@ This work proposed the notion of sensitivity of individual neurons, which is to 
 
 ### SGX and TrustZone
 
-- [SoK: General Purpose Compilers for Secure Multi-Party Computation](https://marsella.github.io/static/mpcsok.pdf)
+- [SoK: General Purpose Compilers for Secure Multi-Party Computation](https://marsella.github.io/static/mpcsok.pdf
+
+- [Slalom: Fast, Verifiable and Private Execution of Neural Networks in Trusted Hardware](https://arxiv.org/pdf/1806.03287.pdf)
 
 ## Machine Learning
 
@@ -77,3 +79,28 @@ This work proposed the notion of sensitivity of individual neurons, which is to 
 
 ### Semantics Segmentation
 
+- [Panoptic Segmentation](https://arxiv.org/pdf/1801.00868.pdf)
+
+- [Pyramid Scene Parsing Network](https://arxiv.org/pdf/1612.01105.pdf)
+
+- [ESNet: An Efficient Symmetric Network for Real-time Semantic Segmentation](https://arxiv.org/pdf/1906.09826v1.pdf)
+
+- [LEDNet: A Lightweight Encoder-Decoder Network for Real-time Semantic Segmentation](https://arxiv.org/pdf/1905.02423.pdf)
+
+- [BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation](https://arxiv.org/pdf/1808.00897.pdf)
+
+- [ICNet for Real-Time Semantic Segmentation on High-Resolution Images](https://arxiv.org/pdf/1704.08545.pdf)
+
+- [ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation](https://arxiv.org/pdf/1606.02147.pdf)
+
+- [ShuffleSeg: Real-time Semantic Segmentation Network](https://arxiv.org/pdf/1803.03816.pdf)
+
+- [Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation](https://arxiv.org/pdf/1802.02611.pdf)(DeepLab v3+)
+
+### Panoptic Segmentation
+
+- [Panoptic Segmentation](https://arxiv.org/pdf/1801.00868.pdf)
+
+- [An End-to-End Network for Panoptic Segmentation](https://arxiv.org/pdf/1903.05027.pdf)
+
+- [DeeperLab: Single-Shot Image Parser](https://arxiv.org/pdf/1902.05093.pdf)
