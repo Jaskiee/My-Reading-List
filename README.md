@@ -25,6 +25,7 @@ This is a reading list of the papers that I am fond of, most of them are relatin
 ### Adversarial
 
 - [Intriguing Properties of Neural Networks](https://arxiv.org/pdf/1312.6199.pdf)
+<br/>
 The first paper in adversarial examples.
 
 - [Feature Denoising for Improving Adversarial Robustness](https://openaccess.thecvf.com/content_CVPR_2019/papers/Xie_Feature_Denoising_for_Improving_Adversarial_Robustness_CVPR_2019_paper.pdf)
