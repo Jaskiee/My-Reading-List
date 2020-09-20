@@ -10,7 +10,8 @@ This is a reading list of the papers that I am fond of, most of them are relatin
 
 - [The Hidden Vulnerability of Distributed Learning in Byzantium](https://arxiv.org/pdf/1802.07927.pdf)
 
-- [Local Model Poisoning Attacks to Byzantine-Robust Federated Learning](https://arxiv.org/pdf/1911.11815.pdf)(USENIX 2020)
+- [Local Model Poisoning Attacks to Byzantine-Robust Federated Learning](https://arxiv.org/pdf/1911.11815.pdf) (USENIX 2020)
+
 
 #### Inference attack & defence
 
