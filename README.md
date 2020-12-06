@@ -35,6 +35,8 @@ This paper attribute the robustness to some of the features which are highly pre
 
 - [High-frequency Component Helps Explain the Generalization of Convolutional Neural Networks](https://arxiv.org/pdf/1905.13545.pdf) (CVPR 2020)
 
+- [NIC: Detecting Adversarial Samples with Neural Network Invariant Checking](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_03A-4_Ma_paper.pdf) (NDSS 2019)
+
 #### Transferability
 - [Improving Transferability of Adversarial Examples with Input Diversity](https://openaccess.thecvf.com/content_CVPR_2019/papers/Xie_Improving_Transferability_of_Adversarial_Examples_With_Input_Diversity_CVPR_2019_paper.pdf) (CVPR 2019) <br/> 
 Integrated Iterative Fast Gradient Sign Method (I-FGSM) with data augmentation, increasing the diversity of the data. They transform the image randomly with the probability of p before each iteration in I-FGSM, the transformations include random resizing and random padding, this method can enhance the generalization of the examples so that increase their transferability.
@@ -68,7 +70,7 @@ Proposed a backdoor attack which can make the poisoned image looks natural and i
 - [One Neuron to Fool Them All](https://arxiv.org/pdf/2003.09372.pdf) <br/> 
 This work proposed the notion of sensitivity of individual neurons, which is to evaluate how roubst the model's output is to perturbations of the neuron's output. They regard the minimum perturbation of the neuron's output which leads to a misclassificaiton as the delta, which is to represent the sensitivity of the neuron, the sensitivity lower, the delta will be larger theoretically. Since the output of sensitive neurons are easy change dramatically coresponding to slight perturbation of input, so the sensitivity information can be used to find adversarial examples, by constrained optimization to make the input image to get a close output after passing the specific neuron as the output that caused by the perturbation leading to a misclassification. A robust training method is also be proposed by adding a regularization term, to prevent the model giving high importance to some specific feature for a paticular class, and to ensure that no single feature has a high relative contribution to an input's corresponding logits.
 
-
+- [Spectral Signatures in Backdoor Attacks](https://proceedings.neurips.cc/paper/2018/hash/280cf18baf4311c92aa5a042336587d3-Abstract.html) (NeurIPS 2018)
 
 ### Multi-Party Computation
 
