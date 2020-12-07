@@ -31,7 +31,7 @@ This is a reading list of the papers that I am fond of, most of them are relatin
 - [Improved Sample Complexities for Deep Neural Networks and Robust Classification via an All-Layer Margin](https://openreview.net/forum?id=HJe_yR4Fwr) (ICLR 2020)
 
 - [Adversarial Examples Are Not Bugs, They Are Features](https://arxiv.org/pdf/1905.02175.pdf) (NeurIPS 2019) <br/> 
-This paper attribute the robustness to some of the features which are highly predictive but incomprehensible to humans. They first define the features as ρ-useful features, which are the features highly related to the true label, γ-robustly useful features, which are the effective features under adversarial perturbation, and useful but non-robust features, which are the non-robust features. They aslo develop an algorithm to separate the roust features and non-robust features, they use a robust model as the criterion to generate images, whose activation values are the same as the result of original images passing through the robust model, and the images attained are consist of the robust features. As for the non-robust features, just implement adversarial perturbation to the original images can achieve, since these adversarial images are consist of non-roubust feature of the target label and the robust features of the true label, which have nothing to do with the target label. They also analyze that the adversarial vulnerability can be expressed as a difference between the inherent data metric and the l2 metric.
+This paper attribute the robustness to some of the features which are highly predictive but incomprehensible to humans, and they also analyze that the adversarial vulnerability can be expressed as a difference between the inherent data metric and the l2 metric.
 
 - [High-frequency Component Helps Explain the Generalization of Convolutional Neural Networks](https://arxiv.org/pdf/1905.13545.pdf) (CVPR 2020)
 
@@ -39,7 +39,7 @@ This paper attribute the robustness to some of the features which are highly pre
 
 #### Transferability
 - [Improving Transferability of Adversarial Examples with Input Diversity](https://openaccess.thecvf.com/content_CVPR_2019/papers/Xie_Improving_Transferability_of_Adversarial_Examples_With_Input_Diversity_CVPR_2019_paper.pdf) (CVPR 2019) <br/> 
-Integrated Iterative Fast Gradient Sign Method (I-FGSM) with data augmentation, increasing the diversity of the data. They transform the image randomly with the probability of p before each iteration in I-FGSM, the transformations include random resizing and random padding, this method can enhance the generalization of the examples so that increase their transferability.
+Integrated Iterative Fast Gradient Sign Method (I-FGSM) with data augmentation, which can increase the diversity of the data. They transform the image randomly with the probability of p before each iteration in I-FGSM, the transformations include random resizing and random padding, this method can enhance the generalization of the examples so that increase their transferability.
 
 
 #### Gradient Regularization
