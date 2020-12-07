@@ -24,17 +24,21 @@ This is a reading list of the papers that I am fond of, most of them are relatin
 
 ### Adversarial
 
+- [Improved Sample Complexities for Deep Neural Networks and Robust Classification via an All-Layer Margin](https://openreview.net/forum?id=HJe_yR4Fwr) (ICLR 2020)
+
+
+- [High-frequency Component Helps Explain the Generalization of Convolutional Neural Networks](https://arxiv.org/pdf/1905.13545.pdf) (CVPR 2020)
+
+
 - [One Neuron to Fool Them All](https://arxiv.org/pdf/2003.09372.pdf) (arXiv 2020)<br/> 
 This work proposed the notion of sensitivity of individual neurons, which is to evaluate how roubst the model's output is to perturbations of the neuron's output.  A robust training method is also be proposed by adding a regularization term, to prevent the model giving high importance to some specific feature for a paticular class, and to ensure that no single feature has a high relative contribution to an input's corresponding logits.
 
 - [Feature Denoising for Improving Adversarial Robustness](https://openaccess.thecvf.com/content_CVPR_2019/papers/Xie_Feature_Denoising_for_Improving_Adversarial_Robustness_CVPR_2019_paper.pdf) (CVPR 2019)
 
-- [Improved Sample Complexities for Deep Neural Networks and Robust Classification via an All-Layer Margin](https://openreview.net/forum?id=HJe_yR4Fwr) (ICLR 2020)
 
 - [Adversarial Examples Are Not Bugs, They Are Features](https://arxiv.org/pdf/1905.02175.pdf) (NeurIPS 2019) <br/> 
 This paper attribute the robustness to some of the features which are highly predictive but incomprehensible to humans, and they also analyze that the adversarial vulnerability can be expressed as a difference between the inherent data metric and the l2 metric.
 
-- [High-frequency Component Helps Explain the Generalization of Convolutional Neural Networks](https://arxiv.org/pdf/1905.13545.pdf) (CVPR 2020)
 
 - [NIC: Detecting Adversarial Samples with Neural Network Invariant Checking](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_03A-4_Ma_paper.pdf) (NDSS 2019)
 
