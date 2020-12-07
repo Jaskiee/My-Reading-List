@@ -24,7 +24,8 @@ This is a reading list of the papers that I am fond of, most of them are relatin
 
 ### Adversarial
 
-- [Intriguing Properties of Neural Networks](https://arxiv.org/pdf/1312.6199.pdf) <br/> The first paper in adversarial examples.
+- [One Neuron to Fool Them All](https://arxiv.org/pdf/2003.09372.pdf) (arXiv 2020)<br/> 
+This work proposed the notion of sensitivity of individual neurons, which is to evaluate how roubst the model's output is to perturbations of the neuron's output.  A robust training method is also be proposed by adding a regularization term, to prevent the model giving high importance to some specific feature for a paticular class, and to ensure that no single feature has a high relative contribution to an input's corresponding logits.
 
 - [Feature Denoising for Improving Adversarial Robustness](https://openaccess.thecvf.com/content_CVPR_2019/papers/Xie_Feature_Denoising_for_Improving_Adversarial_Robustness_CVPR_2019_paper.pdf) (CVPR 2019)
 
@@ -37,6 +38,10 @@ This paper attribute the robustness to some of the features which are highly pre
 
 - [NIC: Detecting Adversarial Samples with Neural Network Invariant Checking](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_03A-4_Ma_paper.pdf) (NDSS 2019)
 
+- [Intriguing Properties of Neural Networks](https://arxiv.org/pdf/1312.6199.pdf) (ICLR 2014)<br/>
+The first paper in adversarial examples.
+
+
 #### Transferability
 - [Improving Transferability of Adversarial Examples with Input Diversity](https://openaccess.thecvf.com/content_CVPR_2019/papers/Xie_Improving_Transferability_of_Adversarial_Examples_With_Input_Diversity_CVPR_2019_paper.pdf) (CVPR 2019) <br/> 
 Integrated Iterative Fast Gradient Sign Method (I-FGSM) with data augmentation, which can increase the diversity of the data. They transform the image randomly with the probability of p before each iteration in I-FGSM, the transformations include random resizing and random padding, this method can enhance the generalization of the examples so that increase their transferability.
@@ -47,10 +52,10 @@ Integrated Iterative Fast Gradient Sign Method (I-FGSM) with data augmentation, 
 - [Scaleable Input Gradient Regularization for Adversarial Roubutness](https://arxiv.org/pdf/1905.11468.pdf)
 
 - [Towards Robust Training of Neural Networks by Regularizing Adversarial Gradients](https://arxiv.org/pdf/1712.00673.pdf) <br/> 
-They design a novel regularizer, which calculates the the difference between the maximum wrong logit output and the correct output, and the output can be considered as the fastest direction of pushing the the wrong logit to be larger than the correct logit output. This improvement can make the edge of the model more smooth, and harder for the adversarial attack to utilize the gradients in the similar magnitude to generate adversarial examples.
+They design a novel regularizer, the difference between the maximum wrong logit output and the correct output was considered as the fastest direction of pushing the the wrong logit to be larger than the correct logit output. This improvement can make the edge of the model more smooth, and harder for the adversarial attack to utilize the gradients to generate adversarial examples.
 
 - [Improving the Adversarial Robustness and Interpretability of Deep Neural Networks by Regularizing their Input Gradients](https://arxiv.org/pdf/1711.09404.pdf) <br/> 
-Training with gradient regularization increases robutness to adversarial perturbations, it can be combined with adversarial training to achieve greater robustness. Gradient Regularization actually adds another item, the rate of change of the energy with respect to the input features, to the loss formula except the common cross-entorpy, which can be seen as the energy of the network. The gradient regularization also increases the interpretability of adversarial pertubations.
+Training with gradient regularization can be combined with adversarial training to achieve greater robustness. Gradient Regularization actually adds the rate of change of the energy with respect to the input features to the loss formula besides common cross-entorpy, which can be seen as the energy of the network. The gradient regularization also increases the interpretability of adversarial pertubations.
 
 - [Unifying Adversarial Training Algorithms with Flexible Deep Data Gradient Regularization](https://arxiv.org/pdf/1601.07213v1.pdf) (arXiv 2016)<br/> 
 Introduced DataGrad framework, which is a framewrok that consider the layer-wise loss and regularization, the weights in this framework are updated by the gradient of the loss function and the loss of regularization, and many prior works of adversarial defecne can be explained based on this model.
@@ -68,8 +73,6 @@ Introduced DataGrad framework, which is a framewrok that consider the layer-wise
 - [Hidden Trigger Backdoor Attacks](https://arxiv.org/pdf/1905.11468.pdf) <br/> 
 Proposed a backdoor attack which can make the poisoned image looks natural and is the same as the image from the target class, however, it is close to the source image with triger in the feature domain, which is evaluated by the ouptu of a certain layer. They shorten the L2 distance of poisoned image and the source image with trigger, and ensure the poisoned image has the similar apperance to the images of target class.
 
-- [One Neuron to Fool Them All](https://arxiv.org/pdf/2003.09372.pdf) <br/> 
-This work proposed the notion of sensitivity of individual neurons, which is to evaluate how roubst the model's output is to perturbations of the neuron's output.  A robust training method is also be proposed by adding a regularization term, to prevent the model giving high importance to some specific feature for a paticular class, and to ensure that no single feature has a high relative contribution to an input's corresponding logits.
 
 - [Spectral Signatures in Backdoor Attacks](https://proceedings.neurips.cc/paper/2018/hash/280cf18baf4311c92aa5a042336587d3-Abstract.html) (NeurIPS 2018)
 
