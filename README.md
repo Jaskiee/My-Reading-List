@@ -72,7 +72,7 @@ Introduced DataGrad framework, which is a framewrok that consider the layer-wise
 ### Backdoor
 
 - [On the Trade-off between Adversarial and Backdoor Robustness](https://papers.nips.cc/paper/2020/hash/8b4066554730ddfaa0266346bdc1b202-Abstract.html) (NeurIPS 2020) <br/>
-This paper found that there is a trade-off between adversarial and backdoor, models used adversarial training are more vulnerable to backdoor, and adversarial training impairs the effectiveness of the pre-training backdoor defense methods, while enhances the post-training defense method.
+This paper finds that there is a trade-off between adversarial and backdoor, models used adversarial training are more vulnerable to backdoor, and adversarial training impairs the effectiveness of the pre-training backdoor defense methods, while enhances the post-training defense method.
 
 - [Universal Litmus Patterns: Revealing Backdoor Attacks in CNNs](https://openaccess.thecvf.com/content_CVPR_2020/papers/Kolouri_Universal_Litmus_Patterns_Revealing_Backdoor_Attacks_in_CNNs_CVPR_2020_paper.pdf) (CVPR 2020) <br/>
 Proposed the Universal Litmus Patterns (ULPs), which can tell if the network is poisoned by feeding some universal patterns to the network and analyzing the output.
