@@ -75,17 +75,23 @@ Introduced DataGrad framework, which is a framewrok that consider the layer-wise
 
 ### Backdoor
 
+#### Insight
+
 - [On the Trade-off between Adversarial and Backdoor Robustness](https://papers.nips.cc/paper/2020/hash/8b4066554730ddfaa0266346bdc1b202-Abstract.html) (NeurIPS 2020) <br/>
 This paper finds that there is a trade-off between adversarial and backdoor, models used adversarial training are more vulnerable to backdoor, and adversarial training impairs the effectiveness of the pre-training backdoor defense methods, while enhances the post-training defense method.
 
+
+#### Attack
+- [Hidden Trigger Backdoor Attacks](https://arxiv.org/pdf/1905.11468.pdf) (AAAI 2020) <br/> 
+Proposed a backdoor attack which can make the poisoned image looks natural and is the same as the image from the target class, however, it is close to the source image with triger in the feature domain, which is evaluated by the ouptu of a certain layer. They shorten the L2 distance of poisoned image and the source image with trigger, and ensure the poisoned image has the similar apperance to the images of target class.
+
+#### Defense
 - [Universal Litmus Patterns: Revealing Backdoor Attacks in CNNs](https://openaccess.thecvf.com/content_CVPR_2020/papers/Kolouri_Universal_Litmus_Patterns_Revealing_Backdoor_Attacks_in_CNNs_CVPR_2020_paper.pdf) (CVPR 2020) <br/>
 Proposed the Universal Litmus Patterns (ULPs), which can tell if the network is poisoned by feeding some universal patterns to the network and analyzing the output.
 
-- [Hidden Trigger Backdoor Attacks](https://arxiv.org/pdf/1905.11468.pdf) (AAAI 2020)<br/> 
-Proposed a backdoor attack which can make the poisoned image looks natural and is the same as the image from the target class, however, it is close to the source image with triger in the feature domain, which is evaluated by the ouptu of a certain layer. They shorten the L2 distance of poisoned image and the source image with trigger, and ensure the poisoned image has the similar apperance to the images of target class.
+- [ABS: Scanning Neural Networks for Back-doors by Artificial Brain Stimulation](https://dl.acm.org/doi/pdf/10.1145/3319535.3363216) (CCS 2019) <br/> 
 
-
-- [Spectral Signatures in Backdoor Attacks](https://proceedings.neurips.cc/paper/2018/hash/280cf18baf4311c92aa5a042336587d3-Abstract.html) (NeurIPS 2018)
+- [Spectral Signatures in Backdoor Attacks](https://proceedings.neurips.cc/paper/2018/hash/280cf18baf4311c92aa5a042336587d3-Abstract.html) (NeurIPS 2018) <br/> 
 
 ### Multi-Party Computation
 
