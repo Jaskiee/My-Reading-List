@@ -86,6 +86,8 @@ This paper finds that there is a trade-off between adversarial and backdoor, mod
 Proposed a backdoor attack which can make the poisoned image looks natural and is the same as the image from the target class, however, it is close to the source image with triger in the feature domain, which is evaluated by the ouptu of a certain layer. They shorten the L2 distance of poisoned image and the source image with trigger, and ensure the poisoned image has the similar apperance to the images of target class.
 
 #### Defense
+- [One-pixel Signature: Characterizing CNN Models for Backdoor Detection](http://arxiv.org/abs/2008.07711) (ECCV 2020) <br/>
+
 - [Universal Litmus Patterns: Revealing Backdoor Attacks in CNNs](https://openaccess.thecvf.com/content_CVPR_2020/papers/Kolouri_Universal_Litmus_Patterns_Revealing_Backdoor_Attacks_in_CNNs_CVPR_2020_paper.pdf) (CVPR 2020) <br/>
 Proposed the Universal Litmus Patterns (ULPs), which can tell if the network is poisoned by feeding some universal patterns to the network and analyzing the output.
 
