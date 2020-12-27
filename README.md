@@ -91,9 +91,11 @@ Introduced a backdoor detection that generating a signature according to a neura
 
 
 - [Universal Litmus Patterns: Revealing Backdoor Attacks in CNNs](https://openaccess.thecvf.com/content_CVPR_2020/papers/Kolouri_Universal_Litmus_Patterns_Revealing_Backdoor_Attacks_in_CNNs_CVPR_2020_paper.pdf) (CVPR 2020) <br/>
-Proposed the Universal Litmus Patterns (ULPs), which can tell if the network is poisoned by feeding some universal patterns to the network and analyzing the output.
+Proposed the Universal Litmus Patterns (ULPs), which can tell if the network is poisoned by feeding some universal patterns to the network and analyzing the output. The ULPs are trainable and they are gained by training on hundreds of poisoned and clean models.
 
 - [ABS: Scanning Neural Networks for Back-doors by Artificial Brain Stimulation](https://dl.acm.org/doi/pdf/10.1145/3319535.3363216) (CCS 2019) <br/> 
+
+- [Defending Neural Backdoors via Generative Distribution Modeling](https://papers.nips.cc/paper/2019/file/78211247db84d96acf4e00092a7fba80-Paper.pdf) (NeurIPS 2019)
 
 - [Spectral Signatures in Backdoor Attacks](https://proceedings.neurips.cc/paper/2018/hash/280cf18baf4311c92aa5a042336587d3-Abstract.html) (NeurIPS 2018) <br/> 
 
