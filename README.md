@@ -130,11 +130,12 @@ This work used GAN and Max-Entropy Staircase Approximator (MESA) to generate all
 
 ## Machine Learning
 
-<div style='display: none'>
-### Model Compression
 
-#### Pruning
-</div>
+[//]: # ### Model Compression
+
+[//]: # #### Pruning
+
+
 ### Semantics Segmentation
 
 - [Panoptic Segmentation](https://arxiv.org/pdf/1801.00868.pdf)
