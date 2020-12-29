@@ -80,15 +80,22 @@ Introduced DataGrad framework, which is a framewrok that consider the layer-wise
 
 #### Insight
 
+
 - [On the Trade-off between Adversarial and Backdoor Robustness](https://papers.nips.cc/paper/2020/hash/8b4066554730ddfaa0266346bdc1b202-Abstract.html) (NeurIPS 2020) <br/>
 This paper finds that there is a trade-off between adversarial and backdoor, models used adversarial training are more vulnerable to backdoor, and adversarial training impairs the effectiveness of the pre-training backdoor defense methods, while enhances the post-training defense method.
 
 
+- [On Certifying Robustness against Backdoor Attacks via Randomized Smoothing](http://arxiv.org/abs/2002.11750) (CVPR 2020) <br/>
+
 #### Attack
+
+- [Reﬂection Backdoor: A Natural Backdoor Attack on Deep Neural Networks](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123550188.pdf) (ECCV 2020) <br/>
+
 - [Hidden Trigger Backdoor Attacks](https://arxiv.org/pdf/1905.11468.pdf) (AAAI 2020) <br/> 
 Proposed a backdoor attack which can make the poisoned image looks natural and is the same as the image from the target class, however, it is close to the source image with triger in the feature domain, which is evaluated by the ouptu of a certain layer. They shorten the L2 distance of poisoned image and the source image with trigger, and ensure the poisoned image has the similar apperance to the images of target class.
 
 - [Poison Frogs! Targeted Clean-Label Poisoning Attacks on Neural Networks](https://proceedings.neurips.cc/paper/2018/hash/22722a343513ed45f14905eb07621686-Abstract.html) (NeurIPS 2018) <br/>
+
 
 
 #### Defense
