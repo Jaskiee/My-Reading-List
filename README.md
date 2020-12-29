@@ -95,7 +95,8 @@ Proposed the Universal Litmus Patterns (ULPs), which can tell if the network is 
 
 - [ABS: Scanning Neural Networks for Back-doors by Artificial Brain Stimulation](https://dl.acm.org/doi/pdf/10.1145/3319535.3363216) (CCS 2019) <br/> 
 
-- [Defending Neural Backdoors via Generative Distribution Modeling](https://papers.nips.cc/paper/2019/file/78211247db84d96acf4e00092a7fba80-Paper.pdf) (NeurIPS 2019)
+- [Defending Neural Backdoors via Generative Distribution Modeling](https://papers.nips.cc/paper/2019/file/78211247db84d96acf4e00092a7fba80-Paper.pdf) (NeurIPS 2019) </br>
+This work used GAN and Max-Entropy Staircase Approximator (MESA) to generate all possible triggers, then retrained the model to remove the backdoor.
 
 - [Spectral Signatures in Backdoor Attacks](https://proceedings.neurips.cc/paper/2018/hash/280cf18baf4311c92aa5a042336587d3-Abstract.html) (NeurIPS 2018) <br/> 
 
