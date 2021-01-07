@@ -89,6 +89,9 @@ This paper finds that there is a trade-off between adversarial and backdoor, mod
 
 #### Attack
 
+- [Don't Trigger Me! A Triggerless Backdoor Attack Against Deep Neural Networks](https://arxiv.org/abs/2010.03282) (arXiv 2020) <br/>
+Proposed a triggerless backdoor attack which associated dropout neurons with target trigger, in the training phase, the target label were assigned to the images when the target neurons were dropped, so the model gained after training behaved normally when the target neurons are not dropped, and activated the backdoor when the target neurons were dropped. The dropout rate needs to be altered to ensure the attack is available.
+
 - [Reﬂection Backdoor: A Natural Backdoor Attack on Deep Neural Networks](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123550188.pdf) (ECCV 2020) <br/>
 
 - [Hidden Trigger Backdoor Attacks](https://arxiv.org/pdf/1905.11468.pdf) (AAAI 2020) <br/> 
