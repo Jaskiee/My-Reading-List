@@ -82,7 +82,6 @@ Introduced DataGrad framework, which is a framewrok that consider the layer-wise
 
 #### Insight
 
-
 - [On the Trade-off between Adversarial and Backdoor Robustness][22] (NeurIPS 2020) <br/>
 This paper finds that there is a trade-off between adversarial and backdoor, models used adversarial training are more vulnerable to backdoor, and adversarial training impairs the effectiveness of the pre-training backdoor defense methods, while enhances the post-training defense method.
 
@@ -104,6 +103,9 @@ Proposed a backdoor attack which can make the poisoned image looks natural and i
 
 
 #### Defense
+- [Neural Attention Distillation: Erasing Backdoor Triggers from Deep Neural Networks][51] (ICLR 2021) <br/>
+Proposed a ditillation method to erase backdoors in DNN models, it first finetuned the backdoored model, then use it as the teacher model, whose attention map will be used to train the original backdoored model.
+
 - [Detecting Backdoors in Neural Networks Using Novel Feature-Based Anomaly Detection][28] (arXiv 2020) <br/>
 This paper proposed a method to detect backdoored images by to detectors, one was to detect the abnormal features extracted from the image, and the other was a retraining version of the FC layers, which aimed at detecting abnormal features combinations.
 
@@ -217,3 +219,4 @@ This work used GAN and Max-Entropy Staircase Approximator (MESA) to generate all
 [48]:	https://arxiv.org/pdf/1801.00868.pdf
 [49]:	https://arxiv.org/pdf/1903.05027.pdf
 [50]:	https://arxiv.org/pdf/1902.05093.pdf
+[51]:   https://arxiv.org/pdf/2101.05930.pdf
