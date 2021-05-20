@@ -123,6 +123,15 @@ This work used GAN and Max-Entropy Staircase Approximator (MESA) to generate all
 
 - [Spectral Signatures in Backdoor Attacks][33] (NeurIPS 2018) <br/>
 
+### Audio
+
+#### Attack
+
+
+#### Defence
+
+
+
 ### Multi-Party Computation
 
 - [SecureNN: 3-Party Secure Computation for Neural Network Training][34]
